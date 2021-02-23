@@ -20,5 +20,17 @@ print(my_list)
 list_1 = [1, 2, 3]
 list_2 = [3, 2]
 print(list_1 > list_2)
+
 if 5 in my_list:
     print(True)
+
+list_3 = []
+list_3 = list(range(1, 10, 2))
+
+print(list_3)
+del my_list[1]
+del my_list[1]
+
+my_list.extend([22, 1, 5])
+my_list.sort()
+print(my_list)

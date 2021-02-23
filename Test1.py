@@ -24,7 +24,6 @@ print(list_1 > list_2)
 if 5 in my_list:
     print(True)
 
-list_3 = []
 list_3 = list(range(1, 10, 2))
 
 print(list_3)

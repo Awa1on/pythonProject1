@@ -33,3 +33,14 @@ del my_list[1]
 my_list.extend([22, 1, 5])
 my_list.sort()
 print(my_list)
+
+my_dict = dict()
+my_dict['Elf'] = "Legalas"
+my_dict['Orc'] = 'Saruman'
+
+if "Elf" in my_dict:
+    print(my_dict)
+
+my_dict.get("cat", 'Vasa')
+my_dict.setdefault('cat', 'Barsik')
+print(my_dict)
